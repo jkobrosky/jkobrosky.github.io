@@ -57,9 +57,9 @@ app.controller('weatherCtrl', function($scope, weatherService) {
 		if ($scope.location === true && $scope.isVisible === true) {
 			getWeather(location);
 			getForecast(location);
-			$scope.isVisible = !$scope.isVisible;
+			//$scope.isVisible = !$scope.isVisible;
 		} else {
-			$scope.isVisible = !$scope.isVisible;
+			//$scope.isVisible = !$scope.isVisible;
 		}
 	};
 
